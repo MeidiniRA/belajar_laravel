@@ -13,7 +13,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: lightblue;
+                color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Selamat Datang di Website<br>Meidini RA
+                   Selamat Datang di Website Kami
                 </div>
 
                 <div class="links">

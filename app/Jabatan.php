@@ -6,5 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Jabatan extends Model
 {
-     protected $table = 'jabatan';
+    //mapping table
+    protected $table = 'jabatan';
 }

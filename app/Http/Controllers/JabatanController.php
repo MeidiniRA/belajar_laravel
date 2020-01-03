@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use DB; //panggil databasenya
-use App\Jabatan; // panggil modelnya (jabatan)
-
+use DB;
+use App\Jabatan;
 
 class JabatanController extends Controller
 {
@@ -16,9 +15,10 @@ class JabatanController extends Controller
      */
     public function index()
     {
-        //$ar_jabatan= Jabatan::orderBy('nama')->get();
+        //bisa juga dengan cara memanggil model seperti dibawah:
+        //$ar_jabatan = Jabatan::orderBy('nama')->get();
         $ar_jabatan = DB::table('jabatan')->get();
-        return view ('jabatan/index', compact('ar_jabatan'));
+        return view('jabatan/index', compact('ar_jabatan'));
     }
 
     /**

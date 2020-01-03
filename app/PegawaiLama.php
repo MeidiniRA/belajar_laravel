@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pegawai extends Model
 {
-   //mapping table
     protected $table = 'pegawai';
+    protected $fillable = [
+        'nama_depan', 'nama_belakang', 'jenis_kelamin', 'agama','alamat','user_id'
+    ];
 }
+

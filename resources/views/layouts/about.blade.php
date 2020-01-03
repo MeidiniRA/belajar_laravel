@@ -1,5 +1,7 @@
 @extends('layouts.index')
+
 @section('content')
+
 <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
@@ -45,4 +47,5 @@
     </div>
   </div>
 </div>
+
 @endsection
